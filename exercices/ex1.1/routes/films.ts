@@ -39,7 +39,6 @@ const defaultFilms: Film[] = [
     budget: 18.7,
   },
  ];
-// Read all films
 
 router.get("/", (_req, res) => {
   return res.json(defaultFilms);
