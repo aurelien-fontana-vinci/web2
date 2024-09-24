@@ -38,28 +38,7 @@ const defaultFilms: Film[] = [
       "A young math genius solves a complex equation and inadvertently puts a virtual world's artificial intelligence in a position to destroy Earth.",
     budget: 18.7,
   },
-  {
-    id: 4,
-    title: "The Meyerowitz Stories",
-    director: "Noah Baumbach",
-    duration: 112,
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/en/a/af/The_Meyerowitz_Stories.png",
-    description:
-      "An estranged family gathers together in New York City for an event celebrating the artistic work of their father.",
-  },
-  {
-    id: 5,
-    title: "her",
-    director: "Spike Jonze",
-    duration: 126,
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg",
-    description:
-      "In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
-    budget: 23,
-  },
-];
+ ];
 // Read all films
 
 router.get("/", (_req, res) => {
