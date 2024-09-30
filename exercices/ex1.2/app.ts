@@ -21,6 +21,6 @@ app.use((req, _res, next) => {
 /* Challenge of ex1.2 */
 app.use(requestCounterMiddleware);
 
-app.use("/films", iflmRouter);
+app.use("/films", filmRouter);
 
 export default app;
